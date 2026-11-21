@@ -104,6 +104,8 @@ Top Publisher & Team
 
 Dashboard File : https://github.com/khushisinghal08/sales-behind-games/tree/main/5_Interactive_Dashboard
 
+Business Report : https://github.com/khushisinghal08/sales-behind-games/tree/main/6_business_report
+
 💡 Key Business Insights
 
 The analysis highlighted several important patterns:
