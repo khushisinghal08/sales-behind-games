@@ -1,6 +1,16 @@
-💻 Game : Sales & Engagement Optimization
-Analyzed and visualized the video game sales and engagement data to uncover trends in game popularity, user behavior, and platform performance by merging sales and engagement data.
+🎮 Sales Behind Games – End-to-End Video Game Sales & Engagement Analysis
 
+📌 Project Overview
+
+Sales Behind Games is an end-to-end data analytics capstone project focused on understanding the video game industry's sales performance, regional market trends, game ratings, and player engagement.
+
+The project combines two datasets to explore different aspects of the gaming industry:
+
+Video Game Sales Dataset: Analyses global sales, regional performance, platforms, genres, publishers, and yearly sales trends.
+
+Game Engagement Dataset: Explores game ratings, reviews, plays, playing activity, backlogs, and wishlists.
+
+The project follows a complete analytics workflow, including data preparation, relational database design, data loading, SQL-based business analysis, interactive Power BI dashboards, and business insight generation.
 
 📌 Problem Statement
 To Clean & Standardize the data in Dataset and enforcing the relationship between tables and then analyze and visualize the video game sales and engagement data to uncover trends in game popularity, user behavior, and platform performance and make a interactive user friendly Dashboard.
