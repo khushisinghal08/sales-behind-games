@@ -64,6 +64,7 @@ Top Selected or Overall Platform (Returns the Platform which is Highest in Sales
 Highest Selling game
 Top Publisher & Team 
 
+Dashboard File : https://github.com/khushisinghal08/sales-behind-games/tree/main/5_Interactive_Dashboard
 💡 Key Business Insights
 
 The analysis highlighted several important patterns:
@@ -114,6 +115,8 @@ This project represents my practical application of data analytics concepts acro
 Project: Sales Behind Games – End-to-End Video Game Sales & Engagement Analysis
 Tools: MySQL Workbench | SQL | Power BI | Excel
 Author: Khushi Singhal
+Linkedin : www.linkedin.com/in/khushi-singhal-
+Email - khushisinghal694@gmail.com
 
 
 
