@@ -30,31 +30,53 @@ Games Sales → Name ,Platform ,Genre ,Publisher ,Region Sales etc.
 
 🧹 Data Cleaning & Preparation
 
---> Games Meta :-
+1. Microsoft Excel
 
-Changed Data type of 7 fields (Release Date,Times Listed,Number of Reviews,Plays,Playing,Backlog,Wishlist) for accurate analysis.
+Excel was used for data preparation and standardisation.
 
-Converted the Values of columns (Number of Reviews,Plays,Playing,Backlog,Wishlist by replacing {K,M,comma}).
+Game Engagement Dataset
 
-Exploded Team & Genre Fields by unpivoting them.
+Updated the data types of seven fields: Release Date, Times Listed, Number of Reviews, Plays, Playing, Backlogs, and Wishlist.
 
-Standardized Column names & their records following by removing duplicates.
+Converted abbreviated values in Number of Reviews, Plays, Playing, Backlogs, and Wishlist into numeric values by handling K, M, and commas.
 
-Replacing null values in Rating with their respective genres average rating.
+Expanded the multi-value Team and Genre fields into separate records.
 
---> Games Sales :-
+Standardised column names and records.
 
+Removed duplicate records.
 
-Converted Data type of Year from float to int for better calculated analysis.
+Filled missing Rating values using the average rating of the corresponding genre.
 
-Replaced null values from Publisher to ‘Unknown’ .
+Video Game Sales Dataset
 
+Converted Year from a decimal/float format to an integer format.
+
+Replaced missing Publisher values with Unknown.
+
+Data Quality Note: Ratings filled using genre averages are estimated values, not original user ratings. This should be considered when interpreting rating-based results.
+
+2. Python
+
+Python was used for exploratory data analysis and working with the datasets.
+
+Libraries used:
+
+Pandas
+
+NumPy
 
 Cleaned Dataset : https://github.com/khushisinghal08/sales-behind-games/tree/main/3_cleaned_datasets
 
 Python Notebooks : https://github.com/khushisinghal08/sales-behind-games/tree/main/2_Python_Notebooks
 
-🔁 Data Pre-Processing / Transformation
+🛢️ Database Design & SQL Analysis
+
+Database: MySQL 8.0
+Database Tool: MySQL Workbench
+Database Name: video_game_analysis
+
+The cleaned data was organised into a relational database using separate lookup tables and bridge tables to manage multi-value relationships, such as games belonging to multiple genres or teams.
 
 Split & transformed the cleaned 2 Dataset (csv files) in to 8 tables and enforced the primary keys and unique keys in them for maintaining relationship.
 
@@ -104,7 +126,6 @@ Top Publisher & Team
 
 Dashboard File : https://github.com/khushisinghal08/sales-behind-games/tree/main/5_Interactive_Dashboard
 
-Business Report : https://github.com/khushisinghal08/sales-behind-games/tree/main/6_business_report
 
 💡 Key Business Insights
 
@@ -136,6 +157,12 @@ Adventure Genre games should make some updates by putting Strategies & Puzzles i
 
 Advertise more in Japan and Europe as they produce less sales.
 
+📄 Business Report
+
+A detailed business report is available here : https://github.com/khushisinghal08/sales-behind-games/tree/main/6_business_report
+
+It documents the project objectives, datasets, methodology, data preparation, analysis, dashboard findings, business recommendations, and conclusion.
+
 ⚙ Tech Stack
 Python (Numpy,Pandas)
 
@@ -145,9 +172,13 @@ PowerBI (DAX Queries)
 
 🛠 Tool Stack
 
+Microsoft Excel
+
 Jupyter Notebook (Data Cleaning & Preparation)
 
-SQL Server Management Studio (SSMS) - (Creating Tables & Relationship)
+MySQL 8.0
+
+MySQL Workbench
 
 Microsoft PowerBI (Dashboard Visualization)
 
