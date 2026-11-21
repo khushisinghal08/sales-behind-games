@@ -1,6 +1,6 @@
-🎮 Sales Behind Games – End-to-End Video Game Sales & Engagement Analysis
+🎮 **Sales Behind Games – End-to-End Video Game Sales & Engagement Analysis**
 
-📌 Project Overview
+📌 ** Project Overview**
 
 Sales Behind Games is an end-to-end data analytics capstone project focused on understanding the video game industry's sales performance, regional market trends, game ratings, and player engagement.
 
