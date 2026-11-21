@@ -17,43 +17,67 @@ To Clean & Standardize the data in Dataset and enforcing the relationship betwee
 
 🏢 Dataset
 Data : VG Sales & Engagement Data (1980 -2025) https://github.com/khushisinghal08/sales-behind-games/tree/main/1_Raw_Dataset
+
 Source : Kaggle
+
 Size :
 Games Meta → 1512 rows & 14 columns.
 Games Sales → 16598 rows & 11 columns.
+
 Fields :
 Games Meta → Team,Release_Date,Team,Rating etc.
 Games Sales → Name ,Platform ,Genre ,Publisher ,Region Sales etc.
 
 🧹 Data Cleaning & Preparation
+
 --> Games Meta :-
+
 Changed Data type of 7 fields (Release Date,Times Listed,Number of Reviews,Plays,Playing,Backlog,Wishlist) for accurate analysis.
+
 Converted the Values of columns (Number of Reviews,Plays,Playing,Backlog,Wishlist by replacing {K,M,comma}).
+
 Exploded Team & Genre Fields by unpivoting them.
+
 Standardized Column names & their records following by removing duplicates.
+
 Replacing null values in Rating with their respective genres average rating.
+
 --> Games Sales :-
+
+
 Converted Data type of Year from float to int for better calculated analysis.
+
 Replaced null values from Publisher to ‘Unknown’ .
+
 
 Cleaned Dataset : https://github.com/khushisinghal08/sales-behind-games/tree/main/3_cleaned_datasets
 
 Python Notebooks : https://github.com/khushisinghal08/sales-behind-games/tree/main/2_Python_Notebooks
 
 🔁 Data Pre-Processing / Transformation
+
 Split & transformed the cleaned 2 Dataset (csv files) in to 8 tables and enforced the primary keys and unique keys in them for maintaining relationship.
+
 Fact Tables : Sales & Games
+
 Dimension Tables : Genres,Platforms,Publishers,Teams,Game_genres,Games_Teams
+
 Inserted Cleaned records from Sales and Games Cleaned CSV files in to tables
 
 SQL Queries : https://github.com/khushisinghal08/sales-behind-games/tree/main/4_sql_queries
 
 📈 Exploratory Data Analysis (EDA)
+
 Adventure Genre genrates 66 % of overall sales.
+
 X360 and PS3 produces highest sales across all platforms.
+
 Sales peaked during 2006 - 2013 Years.
+
 Total Sales is done 2.29k.
+
 Strategy based games have highest rating (4.0).
+
 More than 40% of users has played and playing on Nintendo Publisher.
 
 🏨 Dashboard / Visualization
@@ -69,12 +93,17 @@ More than 40% of users has played and playing on Nintendo Publisher.
 <img width="1447" height="803" alt="image" src="https://github.com/user-attachments/assets/7cc7e0cd-40c4-4580-aa47-4fa6002e1790" />
 
 Tool Used : PowerBI
+
 Key Measures Used :
+
 Top Selected or Overall Platform (Returns the Platform which is Highest in Sales)
+
 Highest Selling game
+
 Top Publisher & Team 
 
 Dashboard File : https://github.com/khushisinghal08/sales-behind-games/tree/main/5_Interactive_Dashboard
+
 💡 Key Business Insights
 
 The analysis highlighted several important patterns:
@@ -98,18 +127,26 @@ Player Engagement: Grand Theft Auto V led the displayed most-played games.
 Player Interest: Yakuza 0 led the displayed most-wishlisted games.
 
 🗣 Recommendations
+
 Company must consider those Budget games which can be accessible on X360 or PS3 Platforms and focus more on Adventure Genre.
+
 Adventure Genre games should make some updates by putting Strategies & Puzzles in their games with a storyline making them good in rating too.
+
 Advertise more in Japan and Europe as they produce less sales.
 
 ⚙ Tech Stack
 Python (Numpy,Pandas)
+
 SQL
+
 PowerBI (DAX Queries)
 
 🛠 Tool Stack
+
 Jupyter Notebook (Data Cleaning & Preparation)
+
 SQL Server Management Studio (SSMS) - (Creating Tables & Relationship)
+
 Microsoft PowerBI (Dashboard Visualization)
 
 🏁 Conclusion
@@ -123,9 +160,13 @@ It also highlights an important distinction: a game's sales performance, player 
 This project represents my practical application of data analytics concepts across the complete data analysis lifecycle.
 
 Project: Sales Behind Games – End-to-End Video Game Sales & Engagement Analysis
+
 Tools: MySQL Workbench | SQL | Power BI | Excel
+
 Author: Khushi Singhal
+
 Linkedin : www.linkedin.com/in/khushi-singhal-
+
 Email - khushisinghal694@gmail.com
 
 
