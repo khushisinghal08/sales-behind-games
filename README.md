@@ -82,15 +82,15 @@ More than 40% of users has played and playing on Nintendo Publisher.
 
 🏨 Dashboard / Visualization
 
-<img width="1458" height="807" alt="image" src="https://github.com/user-attachments/assets/16af0153-edd9-4bce-a168-83ddfb1313ae" />
+<img width="1422" height="808" alt="image" src="https://github.com/user-attachments/assets/75d25e34-aec4-4a9b-aec7-00e0fb2b8691" />
 
-<img width="1452" height="815" alt="image" src="https://github.com/user-attachments/assets/57cc131d-b0a4-46b4-a794-1a23bfb2d365" />
+<img width="1457" height="817" alt="image" src="https://github.com/user-attachments/assets/bf12635b-07c4-4003-a13f-fd36b0ac7ea6" />
 
-<img width="1427" height="805" alt="image" src="https://github.com/user-attachments/assets/48a3cb7d-4995-47a7-9e2b-6f6683f58360" />
+<img width="1442" height="821" alt="image" src="https://github.com/user-attachments/assets/05c56442-83df-47c1-875d-6b7a806d53be" />
 
-<img width="1408" height="811" alt="image" src="https://github.com/user-attachments/assets/ae505ddf-c47c-4975-8e35-b692b3dda594" />
+<img width="1486" height="821" alt="image" src="https://github.com/user-attachments/assets/9ec414a7-6efa-4849-a728-7bc0a527634d" />
 
-<img width="1447" height="803" alt="image" src="https://github.com/user-attachments/assets/7cc7e0cd-40c4-4580-aa47-4fa6002e1790" />
+<img width="1413" height="791" alt="image" src="https://github.com/user-attachments/assets/cfcea224-c6e9-407a-8a33-08a9f807c949" />
 
 Tool Used : PowerBI
 
